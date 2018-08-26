@@ -1,6 +1,7 @@
 <section id="works">
-    <h2 class="text-center">NEWS <span class="badge badge-dark">{% assign length = site.posts | size %}{% if length > 3 %}3{% else %}{{ length }}{% endif %}</span></h2>
-    <hr> {% for post in site.posts limit:3 %}
+    <h2 class="text-center">更新 NEWS <span class="badge badge-dark">
+        {% assign length = site.posts | size %}{% if length > 5 %}5{% else %}{{ length }}{% endif %}</span></h2>
+    <hr> {% for post in site.posts limit:5 %}
     <div class="card mb-3">
         <small>{{ post.date | date: "%Y.%m.%d". }}</small><a href="{{ post.src }}">{{ post.title }}</a>
     </div>
