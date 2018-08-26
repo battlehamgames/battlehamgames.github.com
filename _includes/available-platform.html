@@ -1,0 +1,14 @@
+{% if include.platforms %}
+{% for platform in include.platforms %}
+{% if platform[0] == "Steam" %}
+    {% assign img = site.platforms['steam'].img %}
+{% elsif platform[0] == "Itch" %}
+    {% assign img = site.platforms['itch'].img %}
+{% elsif platform[0] == "GameJolt" %}
+    {% assign img = site.platforms['gamejolt'].img %}
+{% else %}
+    {% assign img = "https://via.placeholder.com/453x136" %}
+{% endif %}
+<a href="{{ platform[1].url }}"><img class="btn-platform m-2" src="{{ img }}"></a>
+{% endfor %}
+{% endif %}

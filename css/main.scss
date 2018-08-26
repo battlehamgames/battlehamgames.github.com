@@ -1,0 +1,145 @@
+---
+---
+
+@import 'bootstrap/bootstrap';
+/*@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);*/
+
+body{
+    background-color: black;
+    background-image: url(../assets/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: silver;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:checked,
+a:disabled {
+    color: {{ site.theme_color }};
+}
+
+button{
+    background-color: {{ site.theme_color }};
+}
+
+button:hover{
+    background-color: silver;
+}
+
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*p, h1, h2, h3{
+    font-family: 'Noto Sans TC', sans-serif;
+}*/
+
+hr{
+    border-color: silver;
+}
+
+nav{
+    background-color: black;
+}
+
+nav img{
+    max-height: 50px;
+}
+
+.products{
+    background-color: silver;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    min-height: 215px;
+    margin: 10px 0px 10px 0px;
+}
+
+.products h3{
+    color: black;
+}
+
+.products p{
+    color: black;
+}
+
+.products .btn{
+    margin: 10px 0px 10px 0px;
+}
+
+.btn-platform{
+    max-height: 50px;
+    border-radius: 4px;
+}
+
+.card{
+    background-color: transparent;
+}
+
+.card .card-title{
+    font-weight: bold;
+}
+
+.card .btn{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.card-header{
+    background-color: rgba(105, 105, 105, 0.4);
+    border-bottom: 0px;
+}
+
+.card-body{
+    color: silver;
+}
+
+.member-card{
+    @extend .col;
+    text-align: left;
+    vertical-align: middle;
+    
+    min-height: 80px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.member-card ul{
+    padding-left: 40%;
+}
+
+.member-card .name{
+    font-size: 150%;
+    font-weight: 400;
+}
+
+.member-card li svg{
+    margin-right: 4px;
+}
+
+.member-body a{
+    color: silver;
+}
+
+.contact-info{
+    @extend .text-center;
+    font-size: 150%;
+}
+
+.contact-info a{
+    color: silver;
+    text-decoration: none;
+}
+
+.contact-info a:hover{
+    color: white;
+}

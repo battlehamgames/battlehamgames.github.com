@@ -1,0 +1,24 @@
+<section id="works">
+<h2 class="text-center">作品 WORKS</h2>
+<hr>
+{% for product in site.products %}
+<div class="card mb-3">
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uXUgfR8qt0w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+<div class="card-header text-center">
+    {% include available-platform.html platforms=product.available %}
+    </div>
+<div class="card-body">
+    <h3 class="card-title">{{ product.title }}</h3>
+    <p class="card-text">{{ product.alt }}</p>
+</div>
+<div class="card-footer">
+    {% for link in product.links %}
+    <a href="{{ link[1].url }}">
+        <button type="button" class="btn btn-sm">{{ link[0] }}</button></a>
+    {% endfor %}
+</div>
+</div>
+{% endfor %}
+</section>

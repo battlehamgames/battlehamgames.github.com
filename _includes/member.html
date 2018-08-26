@@ -1,0 +1,18 @@
+<section id="member">
+    <h2 class="text-center">成員 MEMBER</h2>
+    <hr>
+    <div class="col-6">
+        {% for peop in site.member %}
+        <div class="member-card" style="background-image: url({{ peop[1].avatar_url }});">
+            <ul class="list-unstyled">
+                <li class="name">{{ peop[0] }}</li>
+                <li class="small">{{ peop[1].role }}</li>
+                <li class="small"><i class="fas fa-link"></i>{{ peop[1].homepage }}</li>
+            </ul>
+        </div>
+        <div class="member-body">
+            {{ peop[1].twitter_profile }}
+        </div>
+        {% endfor %}
+    </div>
+</section>
