@@ -1,10 +1,32 @@
 # Site settings
 title: BATTLEHAM
 email:
-author:
-description: Battleham
+author: Jon Gao
+description: We make video game, and make old timer proud!
 url:
 analytics: UA-46567973-5
+
+twitter:
+  username: jongaogame
+  card: summary
+
+social:
+  name: Jon Gao
+  links:
+    - https://twitter.com/jongaogame
+    - https://www.facebook.com/rosa89n20
+    - https://www.linkedin.com/in/rosa89n20/
+    - https://github.com/rosa89n20
+    - https://gitlab.com/rosa89n20
+    - https://bitbucket.org/rosa89n20/
+    - https://plus.google.com/+JonGao
+
+webmaster_verifications:
+  google: NVWfnJJOjWOKeKugq5mrxh_pd9OnErjAL2D_dCjppT4
+  bing: 132B3ED44F1E0BE46869727F4A42CF48
+  baidu: 98kC4bDLTs
+
+lang: en_us
 
 theme_color: rgba(25,207,134,1);
 
@@ -45,3 +67,6 @@ member:
     twitter_profile: <a class="twitter-timeline" data-height="300" data-theme="dark" data-link-color="#19CF86" href="https://twitter.com/jongaogame?ref_src=twsrc%5Etfw">Tweets by jongaogame</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     
+    
+plugins:
+  - jekyll-seo-tag
