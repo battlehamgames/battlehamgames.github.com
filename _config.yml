@@ -20,6 +20,7 @@ social:
     - https://gitlab.com/rosa89n20
     - https://bitbucket.org/rosa89n20/
     - https://plus.google.com/+JonGao
+    - https://indienova.com/steam/developer/battleham
 
 webmaster_verifications:
   google: NVWfnJJOjWOKeKugq5mrxh_pd9OnErjAL2D_dCjppT4
@@ -71,3 +72,4 @@ member:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-feed
