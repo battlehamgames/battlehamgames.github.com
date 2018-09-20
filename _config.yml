@@ -7,16 +7,16 @@ url:
 analytics: UA-46567973-5
 
 twitter:
-  username: jonjon_gao
+  username: jonjongao
   card: summary
 
 social:
   name: Jon Gao
   links:
-    - https://twitter.com/jonjon_gao
+    - https://twitter.com/jonjongao
     - https://www.facebook.com/rosa89n20
     - https://www.linkedin.com/in/rosa89n20/
-    - https://github.com/rosa89n20
+    - https://github.com/jonjongao
     - https://gitlab.com/rosa89n20
     - https://bitbucket.org/rosa89n20/
     - https://plus.google.com/+JonGao
@@ -64,8 +64,8 @@ member:
   Jon Gao:
     avatar_url: assets/img/avatar.png
     role: Director
-    homepage: http://rosa89n20.github.io
-    twitter_profile: <a class="twitter-timeline" data-height="300" data-theme="dark" data-link-color="#19CF86" href="https://twitter.com/jonjon_gao?ref_src=twsrc%5Etfw">Tweets by jonjon_gao</a>
+    homepage: http://jonjongao.github.io
+    twitter_profile: <a class="twitter-timeline" data-height="300" data-theme="dark" data-link-color="#19CF86" href="https://twitter.com/jonjongao?ref_src=twsrc%5Etfw">Tweets by jonjongao</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     
     
